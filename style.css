@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    border: solid 1px #a1a0a0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    padding: 10px;
+    margin: 10px;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 200px;
+    }
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 80px auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1:hover {
+    color: green;
+    cursor: pointer;
+}
